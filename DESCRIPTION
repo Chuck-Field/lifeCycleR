@@ -1,0 +1,15 @@
+Package: lifeCycleR
+Type: Package
+Title: lifeCycleR - Forecasting Process
+Version: 0.1.0
+Author: Charles Field <cf9529@att.com>
+Maintainer: Charles Field <cf9529@att.com>
+Description: The package aids in the development of time series forecasts, 
+  where products and services may have a distinct life span. It can be used by
+  itself or as an ensembled componenant with other forecast models.
+License: MIT + file LICENSE
+Depends: R (>= 3.3.0)
+Imports: Metrics, stats
+Encoding: UTF-8
+LazyData: true
+
