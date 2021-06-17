@@ -49,7 +49,7 @@ buildTrapezoid <- function(productVector, trapMaxLength) {
   platueVector <- rep(1, platueVectorLength)
   # develop descending line of trapezoid
   if (pointThree == length(productVector)) {
-    descendVector <- rep(1, (trapMaxLength) - length(productVector))
+    descendVector <- rep(0, (trapMaxLength) - length(productVector))
   } else {
     descendVector <- productVector[pointThree:length(productVector)]
     lastPoint <- descendVector[length(descendVector)]
